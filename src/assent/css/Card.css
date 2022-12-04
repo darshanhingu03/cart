@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.Container {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 500px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eed67c;
+}
+.cardImage img {
+  width: 120px;
+  height: 100px;
+  border-style: none;
+  border-radius: 5px;
+}
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardTitle {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productDetails .fixPrice {
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+.productSize {
+  background-color: white;
+  border: 1px solid black;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 5px;
+}
+.productColour {
+  background-color: white;
+  border: 1px solid black;
+  height: 2rem;
+  width: 3rem;
+  border-radius: 5px;
+}
+.decrement {
+  height: 2rem;
+  width: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.Count {
+  height: 2rem;
+  width: 3rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.increment {
+  height: 2rem;
+  width: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.allButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.MainButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.edit {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.heartSVG {
+  display: flex;
+  gap: 2px;
+  /* // alignItems: "center", */
+}
+.deleteSVG {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
